@@ -1,0 +1,44 @@
+{
+    "employees":[
+        {
+            "employee_No": 1,
+            "Name": "Ravi", 
+            "DOB": "01-Jan-2001",
+            "Height": 5.5,
+            "City": "Hyderabad",
+            "State": "Telangana"
+        },
+        {
+            "employee_No": 2, 
+            "Name": "Somu", 
+            "DOB": "01-Feb-2001",
+            "Height": 5.8,
+            "City": "Bangalore",
+            "State": "Karnataka"
+        },
+        {
+            "employee_No": 3,  
+            "Name": "Tharun", 
+            "DOB": "10-Jul-2002",
+            "Height": 5.7,
+            "City": "Mumbai",
+            "State": "Maharastra"
+        },
+        {
+            "employee_No": 4, 
+            "Name": "Rohan", 
+            "DOB": "13-sept-2004",
+            "Height": 5.6,
+            "City": "Chennaai",
+            "State": "Tamilnadu"
+        },
+        {
+            "employee_No": 5, 
+            "Name": "Arun", 
+            "DOB": "02-MAy-1999",
+            "Height": 5.5,
+            "City": "Trivendram",
+            "State": "Kerala"
+        }
+    ]
+}
