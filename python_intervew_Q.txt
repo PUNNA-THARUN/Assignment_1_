@@ -1,0 +1,83 @@
+                                      <<<<<Python Interview Question:>>>>>
+
+                           
+1.	What are Data Types?
+ANS:- A data type is a set of values and a set of operations defined on data. An implementation of a data type is an expression of data and operations in terms of a specific programming language such as Java, C ++, or Python.
+
+2.	Name four of the main data types in Python?
+
+ANS:- Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+
+3.	Why are these data types known as Python’s core data types?
+ANS:- They are known as the core data types because they are part of the Python language itself and are always available to create other objects, you usually need to call functions in imported modules. Most of the data types have a specific syntax for generating objects: “spam”, for example, is an expression that creates a string and determines the set of operations that can be applied to it. For this reason, main types are built into Python syntax. Instead, you must call the built-in open function to create a file object.
+
+4.	What does immutable mean and what three types of Python core data types are considered immutable?
+ANS:- An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+5.	What does sequence mean and which three types of data fall into this category?
+ANS:- A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+6.	What does mapping mean and what kind of data type is based on mapping?
+ANS:- The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in the base typeset. Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.
+
+7.	What is polymorphism and why should you care?
+ANS:- Polymorphism means that the meaning of an operation (like a+) depends on the objects being operated. This turns out to be a key idea behind good use of Python, not coercing code to specific types makes that code automatically applied to many types.
+
+8.	Mention the use of // operator in Python?
+ANS:- It is a Floor Division-operator, which is used for dividing two operands with the result as quotient showing only digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0.
+
+9.	What is the purpose of is, not and in operators?
+ANS:- Operators are special functions. They take one or more values and produce a corresponding result. is: returns true when 2 operands are true (Example: “a” is ‘a’) not: returns the inverse of the boolean value in: checks if some element is present in some sequence
+
+10.	What are the three main conditional statements in Python?
+ANS:- if, elif, and else.
+
+11.	What does elif mean?
+ANS:- It means else if. It is used after an if statement, to do another comparison.
+
+12.	How are if, elif, and else blocks defined?
+ANS:- ll blocks in Python are defined by indenting. All lines of a particular code block must have the same level of indenting.
+
+13.	What is the difference between a for loop and a while loop?
+ANS:- A for loop is typically used when you know exactly how many times the loop needs to be repeated. A while loop is typically used when you don't know how many times the loop needs to be repeated.
+A while loop repeats as long as its condition is true. For example, if a while loop says "while x == 5", then the line will execute as long as x equals five.
+
+14.	What are the advantages of using a for loop in Python?
+ANS:- A for loop is a type of loop that executes a set of instructions repeatedly. It uses the following syntax: for x in range(y): do something
+This type of loop has the following properties:
+•	For loops are good because they can make your code more readable and easier to follow.
+•	They also make sure that certain instructions are executed at least one time.
+
+15.	What are the disadvantages of using a for loop in Python?
+ANS:- The for-loop is one of the most basic constructs in programming. However, this construct has its own disadvantages.
+•	If you don't know the upper-bound of your loop, you have to keep track of it by hand or break out of your loop early.
+•	You can't use a break statement to escape from a nested loop.
+
+16.	What is lambda in Python?
+ANS:- It is a single expression anonymous function often used as In-line function.
+
+17.	What are generators in Python?
+ANS:- The way of implementing iterators are known as generators. It is a normal function except that it yields expression in the function.
+
+18.	Mention what are the rules for local and global variables in Python?
+ANS:- Local variables: If a variable is assigned a new value anywhere within the function’s body, it’s assumed to be local.
+Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+19.	What is a lambda statement?
+ANS:- A lambda statement is used to create new function objects and then return them at
+runtime.
+
+20.	What are generators in Python?
+ANS:- Generators are functions that return an iterable collection of items, one at a time, in a set manner. Generators, in general, are used to create iterators with a different approach. They employ the use of yield keyword rather than return to return a generator object.
+
+21.	What is the function of “self”?
+
+ANS:- “Self” is a variable that represents the instance of the object to itself. In most of
+the object oriented programming languages, this is passed to the methods as a hidden
+parameter that is defined by an object. But, in python it is passed explicitly. It refers to
+separate instance of the variable for individual objects. The variables are referred as
+“self.xxx”.
+
+
+
+    
