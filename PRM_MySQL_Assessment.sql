@@ -26,8 +26,8 @@ mysql> SHOW tables;
 3 rows in set (0.00 sec)
 
 mysql> CREATE table countries(
-    -> Country_ID int primary key,
-    -> Country_Name varchar(48) not null,
+    -> Country_ID int,
+    -> Country_Name varchar(48),
     -> Region_ID int,
     -> CHECK(Country_Name IN('italy','india','china'))
     -> );
